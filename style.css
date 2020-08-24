@@ -3,3 +3,27 @@ body
 {
     background-color: #000000; 
 }
+/* Caso queira que apenas um parágrafo receba as alterações, usa-se "id"
+Exemplo:
+     No CSS
+     #paragrafo
+    {
+           font-family: "Trebuchet MS" , Arial, Helvetica, sans-serif;
+           font-size: larger;
+           font-weight: bold;
+           color: #ffffff;
+    }
+
+No HTML
+
+<p id="paragrafo">"Não nasci para vida de gado. Sou um selvagem puro sangue!"</p> */
+
+
+p
+{
+   font-family: "Trebuchet MS" , Arial, Helvetica, sans-serif;
+   font-size: larger;
+   font-weight: bold;
+   color: #ffffff;
+   
+}
