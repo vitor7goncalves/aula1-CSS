@@ -2,7 +2,7 @@
 body
 {
     background-color: #000000; 
-    background-image: url("Image/Banner.png");
+   /* background-image: url("Image/Banner.png");*/
 }
 /* Caso queira que apenas um parágrafo receba as alterações, usa-se "id"
 Exemplo:
@@ -32,6 +32,13 @@ No HTML
    height: 80px;
    background-color: #483D8B;
    border-bottom: 1px solid #191970;
+   /*Esta configuração é do testo da div*/
+   font-family: "Trebuchet MS" , Arial, Helvetica, sans-serif;
+   font-size: larger;
+   font-weight: bold;
+   text-align: center;
+   color: #FFD700;
+   padding: 10px;
 }
 /*a (quando as propriedades servem para todos os links
 {
