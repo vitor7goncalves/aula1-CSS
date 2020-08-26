@@ -58,6 +58,15 @@ No HTML
   left:10px;
   z-index: 2; /*Define a prioridade de ficar por cima. Quanto maior mais por cima ficará*/
 }
+
+#corpo
+{
+  position: absolute;
+  left: 40px;
+  width: 94%;
+  height: 500px;
+  background-color: #1C1C1C;
+}
 /*a (quando as propriedades servem para todos os links
 {
 
@@ -93,3 +102,31 @@ p
    width: 1000px;
    height: 1000px;
 }*/
+
+ul li
+ {
+   color: #ffd700;
+   background-color: #1C1C1C;
+   display: inline;
+   font-size:22px; 
+   font-family: Dreamland std;
+   padding-left: 15px;
+   padding-right: 15px;
+}
+
+ul{
+   padding-top: 10px;
+   padding-left: 40px; ;
+}
+
+ul li a
+{
+   color: #ffd700;
+   text-decoration: none;
+}
+
+ul :hover
+{
+  background-color: #808080;
+  cursor: pointer;
+}
