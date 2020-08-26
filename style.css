@@ -28,6 +28,7 @@ No HTML
 .Banner
 {
    position: absolute;
+   top: 0px;
    width: 100%;
    height: 30px;
    background-color: #363636;
@@ -45,17 +46,17 @@ No HTML
 .banner2
 {
   position: absolute;
-  top: 0px;
-  left:10px;
-  z-index: 2; /*Define a prioridade de ficar por cima. Quanto maior mais por cima ficará*/
-}
-
-.banner3
-{
-  position: absolute;
   top: 80px;
   left: 460px;
   z-index: 3;
+}
+
+#logo
+{
+  position: absolute;
+  top: 0;
+  left:10px;
+  z-index: 2; /*Define a prioridade de ficar por cima. Quanto maior mais por cima ficará*/
 }
 /*a (quando as propriedades servem para todos os links
 {
@@ -86,3 +87,9 @@ p
    color: #FFD700;
    
 }
+
+/*.banner2 :hover
+{
+   width: 1000px;
+   height: 1000px;
+}*/
