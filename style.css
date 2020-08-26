@@ -27,18 +27,35 @@ No HTML
 }
 .Banner
 {
-   position: relative;
+   position: absolute;
    width: 100%;
-   height: 80px;
-   background-color: #483D8B;
+   height: 30px;
+   background-color: #363636;
    border-bottom: 1px solid #191970;
-   /*Esta configuração é do testo da div*/
+   /*Esta configuração é do texto da div*/
    font-family: "Trebuchet MS" , Arial, Helvetica, sans-serif;
    font-size: larger;
    font-weight: bold;
    text-align: center;
    color: #FFD700;
    padding: 10px;
+   z-index: 1;
+}
+
+.banner2
+{
+  position: absolute;
+  top: 0px;
+  left:10px;
+  z-index: 2; /*Define a prioridade de ficar por cima. Quanto maior mais por cima ficará*/
+}
+
+.banner3
+{
+  position: absolute;
+  top: 80px;
+  left: 460px;
+  z-index: 3;
 }
 /*a (quando as propriedades servem para todos os links
 {
