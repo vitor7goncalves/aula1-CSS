@@ -64,6 +64,7 @@ No HTML
   position: absolute;
   left: 40px;
   width: 94%;
+  top: 300px;
   height: 500px;
   background-color: #1C1C1C;
 }
@@ -96,37 +97,73 @@ p
    color: #FFD700;
    
 }
+.menu 
+{
+   list-style-type: none;
+   position: absolute;
+   left: 40px;
+   top: 250px;
+   float: left;
+}
+
+.menu li
+{
+position: relative;
+float: left;
+padding-right: 20px;
+padding-left: 20px;
+font-family: DreamLand Std;
+color: #FFD700;
+background-color: #1C1C1C ;
+cursor: pointer;
+width: 25x;
+height: 25px;
+line-height: 25px;
+}
+
+.menu li :hover
+{
+   color: #808080;
+   cursor: pointer;
+}
+
+.menu li a 
+{
+   color: #FFD700;
+   text-decoration: none;
+}
+
+ .menu li ul
+{
+position: absolute;
+list-style-type: none;
+top: 28px;
+background-color: #1C1C1C;
+opacity: 0;
+visibility: hidden;
+z-index: 20;
+}
+
+.menu li ul li :hover > ul
+{
+  opacity: 1;
+  visibility: visible;
+}
+
+.menu li ul li
+{
+width: 150px;
+height: 25px;
+line-height: 25px;
+}
 
 /*.banner2 :hover
 {
    width: 1000px;
    height: 1000px;
+    color: #ffd700;
+   background-color: #1C1C1C;
 }*/
 
-ul li
- {
-   color: #ffd700;
-   background-color: #1C1C1C;
-   display: inline;
-   font-size:22px; 
-   font-family: Dreamland std;
-   padding-left: 15px;
-   padding-right: 15px;
-}
 
-ul{
-   padding-top: 10px;
-   padding-left: 40px; ;
-}
-
-ul li a
-{
-   color: #ffd700;
-   text-decoration: none;
-}
-
-ul :hover
-{
-  background-color: #808080;
-  cursor: pointer;
-}
+  
