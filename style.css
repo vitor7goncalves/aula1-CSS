@@ -68,6 +68,13 @@ No HTML
   height: 500px;
   background-color: #1C1C1C;
 }
+
+#corpo a
+{
+   position: absolute;
+   bottom: 30px;
+   left: 30px;
+}
 /*a (quando as propriedades servem para todos os links
 {
 
@@ -112,11 +119,11 @@ position: relative;
 float: left;
 padding-right: 20px;
 padding-left: 20px;
-font-family: DreamLand Std;
+font-family: "DreamLand Std";
 color: #FFD700;
 background-color: #1C1C1C ;
 cursor: pointer;
-width: 25x;
+width: 35px;
 height: 25px;
 line-height: 25px;
 }
@@ -144,7 +151,7 @@ visibility: hidden;
 z-index: 20;
 }
 
-.menu li ul li :hover > ul
+.menu li ul li .over > ul, .menu li .over ul
 {
   opacity: 1;
   visibility: visible;
